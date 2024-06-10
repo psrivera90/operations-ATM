@@ -86,7 +86,7 @@ README.md: This project description file.
 1. Clone this repository to your local machine
   git clone https://github.com/psrivera90/operationsATM.git
 
-2. Navigate to the project folder.
+2. Navigate to the project folder
   cd operationsATM
 
 3. Check out the .feature files in the cypress/features/ folder to see the test scenarios in Gherkin.
