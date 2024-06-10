@@ -77,26 +77,37 @@ Set of .feature files containing the scenarios written in Gherkin, following the
 
 # Repository Structure
 
-cypress/features/: Folder containing the scenario files in Gherkin.
+_cypress/features/_: Folder containing the scenario files in Gherkin.
 
-README.md: This project description file.
+_README.md_: This project description file.
 
 # How to Use this Repository
 
 1. Clone this repository to your local machine
-  git clone https://github.com/psrivera90/operationsATM.git
+   
+		git clone https://github.com/psrivera90/operationsATM.git
 
 2. Navigate to the project folder
-  cd operationsATM
 
-3. Check out the .feature files in the cypress/features/ folder to see the test scenarios in Gherkin.
+		cd operationsATM
+
+3. Check out the .feature files in the _'cypress/features/'_ folder to see the test scenarios in Gherkin.
 
 # Contributions
 
 If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository.
-2. Create a new branch (git checkout -b feature/new-feature).
-3. Make your changes and commit (git commit -am 'Add new feature').
-4. Push your changes to your fork (git push origin feature/new-feature).
+1. Fork the repository
+2. Create a new branch:
+
+   		git checkout -b feature/new-feature
+   
+3. Make your changes and commit:
+
+		git commit -am 'Add new feature'
+
+4. Push your changes to your fork:
+
+		git push origin feature/new-feature
+
 5. Open a Pull Request.
