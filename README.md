@@ -85,7 +85,7 @@ _README.md_: This project description file.
 
 1. Clone this repository to your local machine
    
-		git clone https://github.com/psrivera90/operationsATM.git
+		git clone https://github.com/psrivera90/operations-ATM.git
 
 2. Navigate to the project folder
 
