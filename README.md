@@ -98,6 +98,7 @@ _README.md_: This project description file.
 If you would like to contribute to this project, please follow these steps:
 
 1. Fork the repository
+   
 2. Create a new branch:
 
    		git checkout -b feature/new-feature
