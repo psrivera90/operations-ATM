@@ -5,26 +5,33 @@ _Implementation of BDD Scenarios in Gherkin_
 
 This repository contains the implementation of scenarios in Gherkin based on a specific user story and acceptance criteria. The purpose of this project is to demonstrate how to write and structure test scenarios using the Gherkin Behavioral Testing Specification (BDD) language.
 
-# Contents
+## Table of Contents
 
-### User Story
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Scenarios in Gherkin](#scenarios-in-gherkin)
+- [Repository Structure](#repository-structure)
+  - [How to Use this Repository](#how-to-use-this-repository)
+  - [Contributions](#contributions)
+
+## User Story
 Perform money operations through ATM
 
-### Acceptance Criteria: 
+## Acceptance Criteria 
 
-1. As a Customer I want to Login to my account using card and PIN code So that I can perform the transactions
+_1. As a Customer I want to Login to my account using card and PIN code So that I can perform the transactions_
    
 	a. System must validate the card and pin code
 
 	b. If customer enters wrong pin code 3 times the system locks the card
 
-2. As a Customer I want to check the balance of my bank account So that I can perform transactions
+_2. As a Customer I want to check the balance of my bank account So that I can perform transactions_
    
 	a. Customer needs to be logged in before checking balance
 
 	b. Balances is displayed
 
-3. As a Customer I want to deposit cash in my bank account through ATM So that I may save my time and perform transactions later
+_3. As a Customer I want to deposit cash in my bank account through ATM So that I may save my time and perform transactions later_
    
 	a. Customer needs to be logged in before depositing cash
 
@@ -34,7 +41,7 @@ Perform money operations through ATM
 
 	d. If Ok the account balance is updated and displayed
 
-4. As a Customer I want to deposit check in my bank account through ATM So that I may save my time and perform transactions later
+_4. As a Customer I want to deposit check in my bank account through ATM So that I may save my time and perform transactions later_
    
 	a. Customer needs to be logged in before depositing check
 
@@ -44,7 +51,7 @@ Perform money operations through ATM
 
 	d. If Ok the account balance is updated and displayed
 
-5. As a Customer I want to withdraw cash from my bank account through ATM So that I may save my time
+_5. As a Customer I want to withdraw cash from my bank account through ATM So that I may save my time_
     
 	a. Customer needs to be logged in before withdrawing cash
 
@@ -54,7 +61,7 @@ Perform money operations through ATM
 
 	d. If amount entered is less than the account balance cash is dispensed and the new balance is displayed
 
-6. As a Customer I want to transfer money from my account to another bank account through ATM So that I may save my time
+_6. As a Customer I want to transfer money from my account to another bank account through ATM So that I may save my time_
     
 	a. Customer needs to be logged in before transferring amount
 
@@ -64,7 +71,7 @@ Perform money operations through ATM
 
 	d. System should update both accounts concurrently
 
-7. As a Customer I want to logout from my bank account through ATM So that I may end up my ATM session
+_7. As a Customer I want to logout from my bank account through ATM So that I may end up my ATM session_
    
 	a. System asks user if the user wants session report and receipt for the entire session. 
 
@@ -72,16 +79,16 @@ Perform money operations through ATM
 
 	c. User is logged off from the account
 
-### Scenarios in Gherkin: 
+## Scenarios in Gherkin 
 Set of .feature files containing the scenarios written in Gherkin, following the defined acceptance criteria.
 
-# Repository Structure
+## Repository Structure
 
 _cypress/features/_: Folder containing the scenario files in Gherkin.
 
 _README.md_: This project description file.
 
-# How to Use this Repository
+### How to Use this Repository
 
 1. Clone this repository to your local machine
    
@@ -93,7 +100,7 @@ _README.md_: This project description file.
 
 3. Check out the .feature files in the _'cypress/features/'_ folder to see the test scenarios in Gherkin.
 
-# Contributions
+### Contributions
 
 If you would like to contribute to this project, please follow these steps:
 
